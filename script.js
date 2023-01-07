@@ -7,7 +7,7 @@ for(let i=1; i<=num; i++){
     cotn++;
   }
 }
-if(cotn == 2){
+if(count == 2){
   console.log(num+' '+'is prime')
 } else{
   console.log(num+' '+'is not prime')
@@ -23,7 +23,7 @@ for(let i=str.length-1; i<0; i--){
   revStr+=str[i]
 }
 
-if(revStr !== str){
+if(revStr == str){
   console.log(str+' '+'is a palindrome');
 } else{
   console.log(str+' '+'is not a palindrome');
